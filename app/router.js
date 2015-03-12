@@ -6,6 +6,11 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('foo');
+  this.route('bar');
+  this.route('alpha');
+  this.route('beta');
+  this.route('gamma');
 });
 
 export default Router;
